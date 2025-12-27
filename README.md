@@ -173,6 +173,5 @@ location /api {
 }
 ```
 
-## 许可证
 
-MIT License
+
