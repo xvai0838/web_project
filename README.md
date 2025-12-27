@@ -97,6 +97,32 @@ photo-analysis-app/
 - 历史记录面板
 - 图片放大查看
 
+## 存储模式切换
+
+项目支持两种存储模式：
+
+### 后端存储模式（默认）
+- 数据存储在服务器的 SQLite 数据库
+- 支持跨设备同步
+- 需要运行后端服务器
+
+### 本地存储模式
+- 数据存储在浏览器 localStorage
+- 仅当前浏览器可用
+- 无需后端服务器
+
+### 切换方法
+
+修改 `src/utils/storage.js` 文件中的 `USE_BACKEND` 变量：
+
+```javascript
+// 使用后端存储
+const USE_BACKEND = true
+
+// 使用本地存储
+const USE_BACKEND = false
+```
+
 ## API 配置
 
 ### AI 分析 API

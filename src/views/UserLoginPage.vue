@@ -71,7 +71,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
-import { login, register } from '../utils/userApi.js'
+import { login, register } from '../utils/storage.js'
 
 const router = useRouter()
 
