@@ -154,7 +154,7 @@ import {
   verifyAuth,
   getHistoryRecords as getHistoryFromServer,
   deleteHistoryRecord as deleteHistoryFromServer
-} from '../utils/userApi.js'
+} from '../utils/storage.js'
 
 const router = useRouter()
 

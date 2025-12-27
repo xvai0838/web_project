@@ -186,7 +186,7 @@ import {
   getHistoryRecords as getHistoryFromServer,
   addHistoryRecord as addHistoryToServer,
   deleteHistoryRecord as deleteHistoryFromServer
-} from '../utils/userApi.js'
+} from '../utils/storage.js'
 
 const router = useRouter()
 const route = useRoute()
